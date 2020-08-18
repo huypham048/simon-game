@@ -1,0 +1,53 @@
+body {
+  background-color: #f6f4e6;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#level-title {
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+  color: #cf1b1b;
+  font-weight: 900;
+  margin: 5%;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border: 10px solid black;
+  border-radius: 20%;
+  margin: 25px;
+}
+
+.red {
+  background-color: #e11d74;
+}
+
+.blue {
+  background-color: #556fb5;
+}
+
+.green {
+  background-color: #21bf73;
+}
+
+.yellow {
+  background-color: #fddb3a;
+}
+
+.pressed {
+  box-shadow: 0.0 0.0 5px 5px white;
+  background-color: gray;
+}
+
+.game-over {
+  background-color: #cf1b1b;
+  opacity: 0.5;
+}
